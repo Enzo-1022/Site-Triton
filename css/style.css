@@ -1,0 +1,251 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-dourada: #FFE600;
+    --cor-cinza: #E0E0E0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 2.93972602739726vh;
+}
+/* Header */
+header{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.container-logo-e-titulo{
+    display: flex;
+    align-items: center;
+}
+
+.img-header{
+    width: 180px;
+    margin-top: 18px;
+}
+
+.titulo-site{
+    color: white;
+}
+
+.subtitulo{
+    color: var(--cor-dourada);
+    margin-top: -15px;
+}
+
+.box-titulo-e-subtitulo{
+    margin-left: -30px;
+}
+
+/* Nav */
+
+.ul-nav{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav a{
+    color: white;
+    font-size: 2.93972602739726vh;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.li-menu{
+    display: none;
+}
+
+.link-login{
+    padding: 10px;
+    border: 2px solid var(--cor-dourada);
+    border-radius: 5px;
+}
+
+/* Main */
+/* Bem vindos */
+.section-sobre-nos{
+    margin-top: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 2.93972602739726vh;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--cor-cinza);
+    min-height: 31vw;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.section-locais{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--cor-cinza);
+    border-radius: 20px;
+}
+.boxs-txt-locais{
+    margin-left: 10px;
+}
+.carousel{
+    width: 40vw;
+}
+
+.figure-img-onibus{
+    display: flex;
+    justify-content: center;
+}
+
+.img-onibus{
+    width: 50vw;
+}
+
+/* Serviços */
+.section-serviços{
+    margin: 10px;
+    padding: 10px;
+}
+.container-servicos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-servicos{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.uls-servicos{
+    list-style: none;
+    text-align: center;
+    font-size: 2.93972602739726vh;
+}
+
+.ul-nav-servicos{
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.ul-nav-servicos li{
+    padding: 15px;
+    background-color: var(--cor-dourada);
+    border-radius: 5px;
+}
+
+.ul-nav-servicos a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-logo-titulo-footer{
+    display: flex;
+    align-items: center;
+}
+.img-logo-footer{
+    width: 200px;
+}
+
+.boxs-horarios{
+    margin-top: 60px;
+    margin-right: 80px;
+}
+
+.p-copy{
+    text-align: center;
+}
+
+footer a{
+    color: white;
+}
+
+/* Medias querys */ 
+@media (min-width: 1024px){
+    nav a:hover{
+        padding: 10px;
+        border: 2px solid var(--cor-dourada);
+        background-color: var(--cor-dourada);
+        color: black;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 1024px){
+    .section-sobre-nos{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 830px){
+    header{
+        height: 10vw;
+    }
+    .section-locais{
+        flex-direction: column;
+        text-align: center;
+    }
+    .li-nav-responsiva{
+        display: none;
+    }
+    
+    .li-menu{
+        display: block;
+        margin-right: -190px;
+    }
+
+    
+    .link-login{
+        padding: 10px;
+        text-decoration: underline;
+        border: none;
+        border-radius: none;
+    }
+    .ul-nav{
+        align-items: center;
+        text-align: center;
+    }
+    .li-nav-responsiva{
+        width: 50%;
+        border-bottom: 1px solid var(--cor-dourada);
+        text-align: center;
+    }
+
+    .container-footer{
+        flex-direction: column;
+    }
+}
