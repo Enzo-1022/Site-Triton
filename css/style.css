@@ -9,11 +9,12 @@
     --cor-cinza: #E0E0E0;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 p{
     font-size: 2.93972602739726vh;
 }
+
 /* Header */
 header{
     display: flex;
@@ -52,7 +53,6 @@ header{
 }
 
 /* Nav */
-
 .ul-nav{
     display: flex;
     width: 500px;
@@ -79,21 +79,35 @@ nav a{
 }
 
 /* Main */
-/* Bem vindos */
+/* sobre Nós */
 .section-sobre-nos{
     margin-top: 110px;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 2.93972602739726vh;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
     color: black;
     display: flex;
     justify-content: space-evenly;
     background-color: var(--cor-cinza);
-    min-height: 31vw;
-    padding: 10px;
-    border-radius: 20px;
 }
 
+.box-carrosel-sobre-nos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.box-sobre-nos{
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+/* section locais */
 .section-locais{
     margin-left: 20px;
     margin-right: 20px;
@@ -103,19 +117,22 @@ nav a{
     justify-content: space-evenly;
     align-items: center;
     padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: var(--cor-cinza);
     border-radius: 20px;
 }
+.box-carrosel-locais{
+    margin-left: 20px;
+}
 .boxs-txt-locais{
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .carousel{
     width: 40vw;
 }
-
-.figure-img-onibus{
-    display: flex;
-    justify-content: center;
+.d-block{
+    border-radius: 10px;
 }
 
 .img-onibus{
@@ -160,6 +177,7 @@ nav a{
     color: black;
     font-size: 22px;
 }
+
 /* Footer */
 footer{
     background-color: black;
@@ -169,20 +187,11 @@ footer{
 
 .container-footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.container-logo-titulo-footer{
-    display: flex;
-    align-items: center;
-}
 .img-logo-footer{
     width: 200px;
-}
-
-.boxs-horarios{
-    margin-top: 60px;
-    margin-right: 80px;
 }
 
 .p-copy{
@@ -191,6 +200,17 @@ footer{
 
 footer a{
     color: white;
+}
+
+.box-contatos{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 50px;
+}
+
+.h2-container-contatos{
+    margin-left: 48px;
 }
 
 /* Medias querys */ 

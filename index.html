@@ -27,13 +27,14 @@
                 <li class="li-nav-responsiva"><a href="#section-sobre-nos">Sobre Nós</a></li>
                 <li class="li-nav-responsiva"><a href="#contatos">Contatos</a></li>
                 <li class="li-nav-responsiva"><a href="login.html" class="link-login">Login</a></li>
-                <li class="li-menu"><a href="#" id="btnMenu" class="link-login">Menu</a></li>
+                <li class="li-menu"><a href="#" id="btnMenu" class="link-login">Menu</a></li> <!--Tirar isso e colocar um span por fora da ul-->
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="section-sobre-nos" id="section-sobre-nos">
-            <div>
+            <div class="box-sobre-nos">
                 <h2>SOBRE NÓS</h2>
                 <p>Triton Transportes é uma conceituada empresa de transportes, que atua no mercado no ramo de aluguel de ônibus, micro-ônibus e vans para viagens de curta e longa distância.</p>
                 <p>Atendemos grupos de empresas, escolas, igrejas e eventos com veículos confiáveis. </p>
@@ -43,8 +44,7 @@
                 <p>Frota com equipamentos modernos e profissionais criteriosamente treinados.</p>
                 <p>Pontualidade e segurança em locação de ônibus, micro-ônibus e vans é com a Triton Transportes</p>
             </div>
-            <div>
-                <h2>Nossos veiculos:</h2>
+            <div class="box-carrosel-sobre-nos">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -62,8 +62,7 @@
         </section>
 
         <section class="section-locais">
-            <div>
-                <h2>Locais mais visitados:</h2>
+            <div class="box-carrosel-locais">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade carrosel" data-bs-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -128,24 +127,29 @@
                 </div>
             </div>
             <address>
-                <div>
-                    <h2>Contatos</h2>
-                    <br>
+                <div class="container-contatos">
+                    <h2 class="h2-container-contatos">Contatos:</h2>
 
-                    <h3>Telefone:</h3>
-                    <p>(11) 96580-2929</p>
-                    <br>
-
-                    <h3>Email:</h3>
-                    <p><a href="mailto:nivia.feltrim@tritontransportes.com">nivia.feltrim@tritontransportes.com</a></p>
-                    <p><a href="mailto:contato@tritontransportes.com">contato@tritontransportes.com</a></p>
+                    <div class="box-contatos">
+                        <div>
+                            <h3>Telefone:</h3>
+                            <p>(11) 96580-2929</p>
+                        </div>
+    
+                        <div>
+                            <h3>Email:</h3>
+                            <p><a href="mailto:nivia.feltrim@tritontransportes.com">nivia.feltrim@tritontransportes.com</a></p>
+                            <p><a href="mailto:contato@tritontransportes.com">contato@tritontransportes.com</a></p>
+                        </div>
+                        
+                        <div>
+                            <h2>Horarios:</h2>
+                            <p>Segunda a Sexta,das 09h00 ás 18h</p>
+                            <p>Sábado até 13h00</p>
+                        </div>
+                    </div>
                 </div>
             </address>
-            <div class="boxs-horarios">
-                <h2>Horarios:</h2>
-                <p>Segunda a Sexta,das 09h00 ás 18h</p>
-                <p>Sábado até 13h00</p>
-            </div>
         </div>
         <div>
             <p class="p-copy">&copy; 2018 Triton Transposrtes | Porque Viajar é Viver Bem.</p>
