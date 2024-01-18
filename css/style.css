@@ -6,10 +6,12 @@
 
 :root{
     --cor-dourada: #FFE600;
-    --cor-cinza: #E0E0E0;
+    --cor-cinza: rgba(224,244,244,0.89);
 }
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(https://www.ilhabela.com.br/wp-content/uploads/2020/09/praia-da-pacuiba-ilhabela-home.jpg);
+    background-attachment: fixed;
 }
 p{
     font-size: 2.93972602739726vh;
@@ -158,6 +160,7 @@ nav a{
     list-style: none;
     text-align: center;
     font-size: 2.93972602739726vh;
+    color: white;
 }
 
 .ul-nav-servicos{
