@@ -1,0 +1,7 @@
+.box-tipo-veiculo, .box-acessibilidade-veiculo{
+    border-bottom: 1px solid black;
+}
+
+footer{
+    position: relative;
+}
