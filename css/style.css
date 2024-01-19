@@ -3,15 +3,15 @@
     margin: 0;
     padding: 0;
 }
-
+ 
+/* configurações do gerais */
 :root{
     --cor-dourada: #FFE600;
     --cor-cinza: rgba(224,244,244,0.89);
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: url(https://www.ilhabela.com.br/wp-content/uploads/2020/09/praia-da-pacuiba-ilhabela-home.jpg);
-    background-attachment: fixed;
+    animation: loop-imagens-background 20s infinite;
 }
 p{
     font-size: 2.93972602739726vh;
@@ -216,59 +216,37 @@ footer a{
     margin-left: 48px;
 }
 
-/* Medias querys */ 
-@media (min-width: 1024px){
-    nav a:hover{
-        padding: 10px;
-        border: 2px solid var(--cor-dourada);
-        background-color: var(--cor-dourada);
-        color: black;
-        border-radius: 5px;
+/* Animações */
+@keyframes loop-imagens-background {
+    0%{
+        background: url(/imgs/1000_F_243401514_QS9aJxzx7JVTX5eAKwdpMN2zWItndDgt.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    25%{
+        background-image:  url(/imgs/1000_F_387277053_Ncs8oYjHi79EuyD7dIcu6wXPvRCqmlgz.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    50%{
+        background: url(/imgs/1000_F_689894069_2ZCczabMmgwsGXeaOnslDcHWOthNxiXf.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    75%{
+        background: url(/imgs/praia-da-pacuiba-ilhabela.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    100%{
+        background-image: url(/imgs/1000_F_243401514_QS9aJxzx7JVTX5eAKwdpMN2zWItndDgt.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 }
-@media (max-width: 1024px){
-    .section-sobre-nos{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-}
-
-@media (max-width: 830px){
-    header{
-        height: 10vw;
-    }
-    .section-locais{
-        flex-direction: column;
-        text-align: center;
-    }
-    .li-nav-responsiva{
-        display: none;
-    }
-    
-    .li-menu{
-        display: block;
-        margin-right: -190px;
-    }
-
-    
-    .link-login{
-        padding: 10px;
-        text-decoration: underline;
-        border: none;
-        border-radius: none;
-    }
-    .ul-nav{
-        align-items: center;
-        text-align: center;
-    }
-    .li-nav-responsiva{
-        width: 50%;
-        border-bottom: 1px solid var(--cor-dourada);
-        text-align: center;
-    }
-
-    .container-footer{
-        flex-direction: column;
-    }
-}
+/* Médias querys */ 
