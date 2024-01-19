@@ -191,7 +191,7 @@ nav a{
     font-size: 2.93972602739726vh;
     display: flex;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .links-servicos{
@@ -199,6 +199,7 @@ nav a{
     background-color: var(--cor-dourada);
     color: black;
     border-radius: 10px;
+    margin-left: 35.8px;
 }
 
 /* Footer */    
@@ -269,4 +270,5 @@ footer a{
         background-size: 100%;
     }
 }
+
 /* Médias querys */ 
