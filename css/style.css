@@ -1,23 +1,25 @@
-/* Reset */
+    /* Reset */
 *{
     margin: 0;
     padding: 0;
 }
  
-/* configurações do gerais */
+    /* configurações do gerais */
 :root{
     --cor-dourada: #FFE600;
     --cor-cinza: rgba(224,244,244,0.89);
 }
+
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation: loop-imagens-background 40s linear infinite;
 }
+
 p{
     font-size: 2.93972602739726vh;
 }
 
-/* Header */
+    /* Header */
 header{
     display: flex;
     height: 100px;
@@ -54,7 +56,7 @@ header{
     margin-left: -30px;
 }
 
-/* Nav */
+    /* Nav */
 .ul-nav{
     display: flex;
     width: 500px;
@@ -80,8 +82,8 @@ nav a{
     border-radius: 5px;
 }
 
-/* Main */
-/* sobre Nós */
+        /* Main */
+    /* sobre Nós */
 .section-sobre-nos{
     margin-top: 110px;
     margin-left: 20px;
@@ -109,7 +111,7 @@ nav a{
     padding-left: 20px;
 }
 
-/* section locais */
+    /* section locais */
 .section-locais{
     margin-left: 20px;
     margin-right: 20px;
@@ -124,15 +126,19 @@ nav a{
     background-color: var(--cor-cinza);
     border-radius: 20px;
 }
+
 .box-carrosel-locais{
     margin-left: 20px;
 }
+
 .boxs-txt-locais{
     margin-left: 30px;
 }
+
 .carousel{
     width: 40vw;
 }
+
 .d-block{
     border-radius: 10px;
 }
@@ -141,47 +147,61 @@ nav a{
     width: 50vw;
 }
 
-/* Serviços */
+    /* Serviços */
 .section-serviços{
     margin: 10px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.container-servicos{
+
+.box-servicos{
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .titulo-servicos{
     text-align: center;
     text-decoration: underline;
+    color: white;
+    background-color: black;
+    width:  30vw;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .uls-servicos{
+    font-size: 2.93972602739726vh;
     list-style: none;
     text-align: center;
-    font-size: 2.93972602739726vh;
-    color: white;
-}
-
-.ul-nav-servicos{
-    width: 100%;
-    justify-content: space-around;
-    margin-top: 15px;
-}
-
-.ul-nav-servicos li{
-    padding: 15px;
-    background-color: var(--cor-dourada);
-    border-radius: 5px;
-}
-
-.ul-nav-servicos a{
-    text-decoration: none;
     color: black;
-    font-size: 22px;
 }
 
-/* Footer */
+.uls-servicos li{
+    background-color: var(--cor-cinza);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.box-links-servicos{
+    width: 100%;
+    font-size: 2.93972602739726vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.links-servicos{
+    padding: 10px;
+    background-color: var(--cor-dourada);
+    color: black;
+    border-radius: 10px;
+}
+
+/* Footer */    
 footer{
     background-color: black;
     color: white;
