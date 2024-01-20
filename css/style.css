@@ -19,6 +19,10 @@ p{
     font-size: 2.93972602739726vh;
 }
 
+::selection{
+    background-color: var(--cor-dourada);
+}
+
     /* Header */
 header{
     display: flex;
@@ -72,14 +76,11 @@ nav a{
     transition: 0.2s;
 }
 
-.li-menu{
-    display: none;
-}
-
 .link-login{
     padding: 10px;
     border: 2px solid var(--cor-dourada);
     border-radius: 5px;
+    transition: 0.2s;
 }
 
         /* Main */
@@ -200,9 +201,10 @@ nav a{
     color: black;
     border-radius: 10px;
     margin-left: 35.8px;
+    transition: 0.2s;
 }
 
-/* Footer */    
+    /* Footer */    
 footer{
     background-color: black;
     color: white;
@@ -237,7 +239,7 @@ footer a{
     margin-left: 48px;
 }
 
-/* Animações */
+    /* Animações */
 @keyframes loop-imagens-background {
     0%{
         background: url(/imgs/1000_F_243401514_QS9aJxzx7JVTX5eAKwdpMN2zWItndDgt.jpg);
@@ -271,4 +273,44 @@ footer a{
     }
 }
 
-/* Médias querys */ 
+@keyframes mudar-cor-section {
+    50%{
+        background-color: var(--cor-dourada);
+    }
+    100%{
+        background-color: var(--cor-cinza);
+    }
+}
+
+@keyframes mudar-cor-section2 {
+    50%{
+        background-color: var(--cor-dourada);
+    }
+    100%{
+        background-color: var(--cor-cinza);
+    }
+}
+
+    /* Hovers */ 
+.link-login:hover{
+    background-color: var(--cor-dourada);
+    color: black;
+}
+
+nav a:hover{
+    background-color: var(--cor-dourada);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box-links-servicos a:hover{
+    color: var(--cor-dourada);
+    background-color: black;
+}
+
+footer a:hover{
+    color: white;
+}
+
+    /* Médias querys */ 
