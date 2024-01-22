@@ -242,31 +242,31 @@ footer a{
     /* Animações */
 @keyframes loop-imagens-background {
     0%{
-        background: url(/imgs/1000_F_243401514_QS9aJxzx7JVTX5eAKwdpMN2zWItndDgt.jpg);
+        background: url(imgs/1000_F_243401514_QS9aJxzx7JVTX5eAKwdpMN2zWItndDgt.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100%;
     }
     25%{
-        background-image:  url(/imgs/1000_F_387277053_Ncs8oYjHi79EuyD7dIcu6wXPvRCqmlgz.jpg);
+        background-image:  url(imgs/1000_F_387277053_Ncs8oYjHi79EuyD7dIcu6wXPvRCqmlgz.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100%;
     }
     50%{
-        background: url(/imgs/1000_F_689894069_2ZCczabMmgwsGXeaOnslDcHWOthNxiXf.jpg);
+        background: url(imgs/1000_F_689894069_2ZCczabMmgwsGXeaOnslDcHWOthNxiXf.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100%;
     }
     75%{
-        background: url(/imgs/praia-da-pacuiba-ilhabela.jpg);
+        background: url(imgs/praia-da-pacuiba-ilhabela.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
-        background-image: url(/imgs/1000_F_243401514_QS9aJxzx7JVTX5eAKwdpMN2zWItndDgt.jpg);
+        background-image: url(imgs/1000_F_243401514_QS9aJxzx7JVTX5eAKwdpMN2zWItndDgt.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100%;
