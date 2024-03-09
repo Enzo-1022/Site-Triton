@@ -26,10 +26,10 @@ p{
     /* Header */
 header{
     display: flex;
-    height: 75px;
+    height: 5.064vw;
     background-color: black;
     align-items: center;
-    padding: 15px;
+    padding: 2.5vw;
     justify-content: space-between;
     position: fixed;
     top: 0;
@@ -43,17 +43,19 @@ header{
 }
 
 .img-header{
-    width: 160px;
+    width: 15.053vh;
     margin-top: 18px;
 }
 
 .titulo-site{
     color: white;
+    font-size: 3.835616438356164vh;
 }
 
 .subtitulo{
     color: var(--cor-dourada);
     margin-top: -15px;
+    font-size: 3.4246575342465753vh;
 }
 
 .box-titulo-e-subtitulo{
@@ -61,6 +63,12 @@ header{
 }
 
     /* Nav */
+
+.span-dropdown{
+    display: none;
+    color: white;
+}
+
 .ul-nav{
     display: flex;
     width: 500px;
@@ -77,8 +85,8 @@ nav a{
 }
 
 .link-login{
-    padding: 10px;
-    border: 2px solid var(--cor-dourada);
+    padding: 0.86vh;
+    border: 0.21vh solid var(--cor-dourada);
     border-radius: 5px;
     transition: 0.2s;
 }
@@ -86,7 +94,7 @@ nav a{
         /* Main */
     /* sobre Nós */
 .section-sobre-nos{
-    margin-top: 110px;
+    margin-top: 6.161458333333333vw;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 2.93972602739726vh;
@@ -300,7 +308,7 @@ footer a{
 nav a:hover{
     background-color: var(--cor-dourada);
     color: black;
-    padding: 5px;
+    padding: 0.53vh;
     border-radius: 5px;
 }
 
@@ -314,3 +322,48 @@ footer a:hover{
 }
 
     /* Médias querys */ 
+
+@media (max-width: 1320px) {
+    .section-sobre-nos{
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .carousel{
+        width: 50.083333333333336vw;
+    }
+}
+
+@media (max-width: 1024px){
+    .section-locais{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+
+    .box-contatos{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1000px){
+
+    .ul-nav{
+        display: none;
+    }
+
+    .box-titulo-e-subtitulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: -20px;
+    }
+
+    .subtitulo{
+        margin-top: 0;  
+    }
+
+    .span-dropdown{
+        display: block;
+    }
+}
