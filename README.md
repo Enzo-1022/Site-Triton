@@ -27,8 +27,8 @@ agendamentos e cotações.
  Colaboradores do projeto 
 
 Lucas Barbosa 
-Tamires
-Enzo-1022
-Guilherme
+Tamires,
+Enzo-1022,
+Guilherme,
 Kauã 
 
