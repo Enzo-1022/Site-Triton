@@ -225,7 +225,7 @@ footer{
 }
 
 .img-logo-footer{
-    width: 200px;
+    max-width: 200px;
 }
 
 .p-copy{
@@ -234,6 +234,7 @@ footer{
 
 footer a{
     color: white;
+    flex-wrap: wrap;
 }
 
 .box-contatos{
@@ -347,6 +348,11 @@ footer a:hover{
 
 @media (max-width: 1000px){
 
+    header{
+        position: static;
+        width: 100%;
+    }
+
     .ul-nav{
         display: none;
     }
@@ -365,5 +371,32 @@ footer a:hover{
 
     .span-dropdown{
         display: block;
+    }
+
+
+    .container-logo-e-titulo{
+        margin-left: -40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .img-header{
+        width: 9vw;
+    }
+
+
+    .section-sobre-nos{
+        margin-top: 5px;
+    }
+
+    body{
+        animation: none;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .container-footer{
+        flex-direction: column;
     }
 }
