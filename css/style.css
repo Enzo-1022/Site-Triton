@@ -333,6 +333,10 @@ footer a:hover{
     .carousel{
         width: 50.083333333333336vw;
     }
+
+    .ul-nav{
+        display: flex;
+    }
 }
 
 @media (max-width: 1024px){
@@ -343,6 +347,14 @@ footer a:hover{
 
     .box-contatos{
         flex-direction: column;
+    }
+
+    header{
+        padding: 30px;
+    }
+
+    .ul-nav{
+        display: flex;
     }
 }
 
@@ -396,7 +408,19 @@ footer a:hover{
 
 @media (max-width: 768px) {
     
+    .img-header{
+        width: 100px;
+    }
+
     .container-footer{
         flex-direction: column;
     }
+
+    .titulo-site, .subtitulo{
+        font-size: 15pt;
+    }
+}
+
+@media (max-width: 562px){
+    
 }

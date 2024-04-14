@@ -31,16 +31,69 @@ span_dropdown.addEventListener('click', () => {
 function dropDown() {
     
     if (ul_nav.style.display == "none" || ul_nav.style.display == "") {
-        ul_nav.style.display = "flex"
-        header.style.height = "100px"
-        nav.style.display = "flex"
-        nav.style.flexDirection = "column"
-        span_dropdown.style.textAlign = "center"
+
+        if (window.screen.width <= 530 ) {
+
+            ul_nav.style.display = "flex"
+            nav.style.display = "flex"
+            nav.style.flexDirection = "column"
+            span_dropdown.style.textAlign = "center"
+
+            header.style.flexDirection = "column"
+            header.style.justifyContent = "center"
+            header.style.alignItems = "center"
+            header.style.height = "auto"
+
+            ul_nav.style.flexDirection = "column"
+            ul_nav.style.alignItems = "center"
+            ul_nav.style.gap = "10px"
+            ul_nav.style.marginLeft = "-34px"
+            
+        } else{
+
+            ul_nav.style.display = "flex"
+            nav.style.display = "flex"
+            nav.style.flexDirection = "column"
+            span_dropdown.style.textAlign = "center"
+
+            header.style.flexDirection = "column"
+            header.style.justifyContent = "center"
+            header.style.alignItems = "center"
+            header.style.height = "auto"
+
+        }
+
     } else {
-        ul_nav.style.display = "none"
-        header.style.height = " 5.064vw"
-        nav.style.display = "block"
-        span_dropdown.style.textAlign = "left"
+
+        if (window.screen.width <= 530 ) {
+
+            ul_nav.style.display = "none"
+            header.style.height = " 5.064vw"
+            nav.style.display = "block"
+            span_dropdown.style.textAlign = "left"
+    
+            header.style.flexDirection = "row"
+            header.style.justifyContent = "space-between"
+            header.style.alignItems = "center"
+
+            ul_nav.style.flexDirection = "row"
+            ul_nav.style.alignItems = "center"
+            ul_nav.style.gap = "5px"
+            ul_nav.style.marginLeft = "0px"
+            
+        } else{
+
+            ul_nav.style.display = "none"
+            header.style.height = " 5.064vw"
+            nav.style.display = "block"
+            span_dropdown.style.textAlign = "left"
+
+            header.style.flexDirection = "row"
+            header.style.justifyContent = "space-between"
+            header.style.alignItems = "center"
+            
+        }
+
     }
 
 }
