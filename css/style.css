@@ -401,9 +401,9 @@ footer a:hover{
         margin-top: 5px;
     }
 
-    body{
+    /* body{
         animation: none;
-    }
+    } */
 }
 
 @media (max-width: 768px) {
@@ -419,8 +419,41 @@ footer a:hover{
     .titulo-site, .subtitulo{
         font-size: 15pt;
     }
+
+    a{
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width: 562px){
-    
+   
+   
+    .section-serviços{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-servicos{
+        width: 80%;
+    }
+
+    .box-servicos{
+        flex-direction: column;
+        margin-left: -35px ;
+    }
+
+    .box-links-servicos{
+        flex-direction: column;
+        gap: 10px;
+        margin-left: -35px ;
+    }
+
+
+    .logo-titulo-footer{
+        flex-direction: column;
+    }
 }
