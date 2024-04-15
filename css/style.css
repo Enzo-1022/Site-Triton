@@ -255,30 +255,35 @@ footer a{
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100%;
+        background-position-y: center;
     }
     25%{
         background-image:  url(../imgs/1000_F_387277053_Ncs8oYjHi79EuyD7dIcu6wXPvRCqmlgz.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100%;
+        background-position-y: center;
     }
     50%{
         background: url(../imgs/1000_F_689894069_2ZCczabMmgwsGXeaOnslDcHWOthNxiXf.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100%;
+        background-position-y: center;
     }
     75%{
         background: url(../imgs/praia-da-pacuiba-ilhabela.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100%;
+        background-position-y: center;
     }
     100%{
         background-image: url(../imgs/1000_F_243401514_QS9aJxzx7JVTX5eAKwdpMN2zWItndDgt.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100%;
+        background-position-y: center;
     }
 }
 
@@ -401,9 +406,43 @@ footer a:hover{
         margin-top: 5px;
     }
 
-    /* body{
-        animation: none;
-    } */
+    @keyframes loop-imagens-background {
+        0%{
+            background: url(../imgs/1000_F_243401514_QS9aJxzx7JVTX5eAKwdpMN2zWItndDgt.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position-y: center;
+        }
+        25%{
+            background-image:  url(../imgs/1000_F_387277053_Ncs8oYjHi79EuyD7dIcu6wXPvRCqmlgz.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position-y: center;
+        }
+        50%{
+            background: url(../imgs/1000_F_689894069_2ZCczabMmgwsGXeaOnslDcHWOthNxiXf.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position-y: center;
+        }
+        75%{
+            background: url(../imgs/praia-da-pacuiba-ilhabela.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position-y: center;
+        }
+        100%{
+            background-image: url(../imgs/1000_F_243401514_QS9aJxzx7JVTX5eAKwdpMN2zWItndDgt.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position-y: center;
+        }
+    }
 }
 
 @media (max-width: 768px) {
