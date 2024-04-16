@@ -91,6 +91,14 @@ nav a{
     transition: 0.2s;
 }
 
+.span-dropdown{
+    background-color: var(--cor-dourada);
+    border-radius: 10px;
+    width: 50px;
+    align-self: center;
+    cursor: pointer;
+}
+
         /* Main */
     /* sobre Nós */
 .section-sobre-nos{
@@ -455,7 +463,6 @@ footer a:hover{
     }
 
     a{
-        
         display: flex;
         flex-wrap: wrap;
     }

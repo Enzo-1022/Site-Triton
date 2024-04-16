@@ -36,7 +36,7 @@ function dropDown() {
 
             ul_nav.style.display = "flex"
             nav.style.display = "flex"
-            nav.style.flexDirection = "column"
+            nav.style.flexDirection = "row-reverse"
             span_dropdown.style.textAlign = "center"
 
             header.style.flexDirection = "column"
@@ -46,14 +46,14 @@ function dropDown() {
 
             ul_nav.style.flexDirection = "column"
             ul_nav.style.alignItems = "center"
-            ul_nav.style.gap = "10px"
+            ul_nav.style.gap = "5px"
             ul_nav.style.marginLeft = "-34px"
             
         } else{
 
             ul_nav.style.display = "flex"
             nav.style.display = "flex"
-            nav.style.flexDirection = "column"
+            nav.style.flexDirection = "row-reverse"
             span_dropdown.style.textAlign = "center"
 
             header.style.flexDirection = "column"
