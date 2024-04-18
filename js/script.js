@@ -37,7 +37,8 @@ function dropDown() {
             ul_nav.style.display = "flex"
             nav.style.display = "flex"
             nav.style.flexDirection = "row-reverse"
-            span_dropdown.style.textAlign = "center"
+            
+            span_dropdown.style.rotate = '180deg'
 
             header.style.flexDirection = "column"
             header.style.justifyContent = "center"
@@ -46,7 +47,7 @@ function dropDown() {
 
             ul_nav.style.flexDirection = "column"
             ul_nav.style.alignItems = "center"
-            ul_nav.style.gap = "5px"
+            ul_nav.style.gap = "1px"
             ul_nav.style.marginLeft = "-34px"
             
         } else{
@@ -54,7 +55,8 @@ function dropDown() {
             ul_nav.style.display = "flex"
             nav.style.display = "flex"
             nav.style.flexDirection = "row-reverse"
-            span_dropdown.style.textAlign = "center"
+            
+            span_dropdown.style.rotate = '180deg'
 
             header.style.flexDirection = "column"
             header.style.justifyContent = "center"
@@ -70,7 +72,8 @@ function dropDown() {
             ul_nav.style.display = "none"
             header.style.height = " 5.064vw"
             nav.style.display = "block"
-            span_dropdown.style.textAlign = "left"
+
+            span_dropdown.style.rotate = 'none'
     
             header.style.flexDirection = "row"
             header.style.justifyContent = "space-between"
@@ -78,7 +81,7 @@ function dropDown() {
 
             ul_nav.style.flexDirection = "row"
             ul_nav.style.alignItems = "center"
-            ul_nav.style.gap = "5px"
+            ul_nav.style.gap = "1px"
             ul_nav.style.marginLeft = "0px"
             
         } else{
@@ -86,7 +89,8 @@ function dropDown() {
             ul_nav.style.display = "none"
             header.style.height = " 5.064vw"
             nav.style.display = "block"
-            span_dropdown.style.textAlign = "left"
+
+            span_dropdown.style.rotate = 'none'
 
             header.style.flexDirection = "row"
             header.style.justifyContent = "space-between"
