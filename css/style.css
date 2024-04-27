@@ -64,11 +64,6 @@ header{
 
     /* Nav */
 
-.span-dropdown{
-    display: none;
-    color: white;
-}
-
 .ul-nav{
     display: flex;
     width: 500px;
@@ -94,14 +89,12 @@ nav a{
 .span-dropdown{
     background-color: var(--cor-dourada);
     border-radius: 100px;
-    width: 50px;
+    width: 30px;
     align-self: center;
     cursor: pointer;
     text-align: center;
 
     display: none;
-    
-
 }
 
         /* Main */
@@ -362,6 +355,16 @@ footer a:hover{
 }
 
 @media (max-width: 1024px){
+
+    body{
+        animation: none;
+        /* background-image: url(../imgs/praia-da-pacuiba-ilhabela.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; */
+        background-color: black;
+    }
+
     .section-locais{
         flex-direction: column-reverse;
         padding: 10px;
